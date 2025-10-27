@@ -11,7 +11,7 @@ public class Student {
 		this.gpa = gpa; 
 		}
 	
-	// Example Getter 
+	// Example Getter. 
 	public String getName() { 
 	return name; 
 	}

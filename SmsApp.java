@@ -48,7 +48,7 @@ public class SmsApp {
 
 	}
 	
-	// Inside SmsApp class 
+
 	public static void addStudent(ArrayList<Student> list, Scanner scan) { 
 	System.out.print("Enter name: "); 
 	String name = scan.next(); 
@@ -61,7 +61,7 @@ public class SmsApp {
 	System.out.println("✅ Student added successfully!"); 
 	}
 	
-	// Inside SmsApp class 
+	 
 	public static void viewStudents(ArrayList<Student> list) { 
 	if (list.isEmpty()) { 
 	System.out.println("The system has no students."); 
